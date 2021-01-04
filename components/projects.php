@@ -22,17 +22,17 @@
           <a class="nav-link" href="../index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="about.php">About</a>
+          <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="contact.php">Projects</a>
+          <a class="nav-link active" aria-current="page" href="projects.php">Projects</a>
         </li>
       </ul>
       <span class="navbar-text">
-      <a class="nav-link" href="login.php">Login</a>
+      <a class="nav-link" href="../login.php">Login</a>
       </span>
     </div>
   </div>

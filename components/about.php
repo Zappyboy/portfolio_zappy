@@ -31,9 +31,9 @@
           <a class="nav-link" href="contact.php">Projects</a>
         </li>
       </ul>
-      <li class="nav-item">
-          <a class="nav-link" href="contact.php">Projects</a>
-        </li>
+      <span class="navbar-text">
+      <a class="nav-link" href="../login.php">Login</a>
+      </span>
     </div>
   </div>
 </nav>
