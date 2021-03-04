@@ -96,6 +96,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <style type="text/css">
+        body{ font: 14px sans-serif; }
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
@@ -118,7 +119,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           <a class="nav-link" href="./components/contact.php">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./components/projects.php">Projects</a>
+          <a class="nav-link" href="./components/projects.php">Products</a>
         </li>
       </ul>
       <span class="navbar-text">
@@ -135,15 +136,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <label>Username</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_err; ?></span>
-            </div>    
+            </div>
+            <br>    
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                 <label>Password</label>
                 <input type="password" name="password" class="form-control">
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>
+            <br>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
+            <br>
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
         </form>
     </div>    
